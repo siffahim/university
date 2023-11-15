@@ -12,12 +12,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Fahim",
   "license": "ISC",
   "lint-staged": {
-    "src/**/*.ts": [
-      "npm run lint-prettier"
-    ]
+    "src/**/*.ts": "npm run lint-prettier"
   },
   "dependencies": {
     "colors": "^1.4.0",
