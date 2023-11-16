@@ -14,7 +14,7 @@ async function run() {
       console.log(colors.yellow(`Application listening on port ${config.port}`))
     })
   } catch (err) {
-    console.log(colors.red('🤢 Failed to connect database'), err)
+    console.log(colors.red(`🤢 Failed to connect database ${err}`))
   }
 }
 
