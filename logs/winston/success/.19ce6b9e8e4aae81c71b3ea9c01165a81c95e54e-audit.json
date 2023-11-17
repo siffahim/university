@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "D:\\Fahim\\university\\logs\\winston\\success\\.19ce6b9e8e4aae81c71b3ea9c01165a81c95e54e-audit.json",
+    "files": [
+        {
+            "date": 1700200986261,
+            "name": "D:\\Fahim\\university\\logs\\winston\\success\\u-2023-17-11-12-success.log",
+            "hash": "9128645ee755595dce6d06498c9eafe3c5ef724c4d697fb757ffe0fcab9853a1"
+        },
+        {
+            "date": 1700209881723,
+            "name": "D:\\Fahim\\university\\logs\\winston\\success\\u-2023-17-11-14-success.log",
+            "hash": "e517efdbfe1863f9d5738765e1b4ef3b6133f130539881b1f97a1c53a636b42a"
+        },
+        {
+            "date": 1700212046567,
+            "name": "D:\\Fahim\\university\\logs\\winston\\success\\u-2023-17-11-15-success.log",
+            "hash": "89d1ef4273c5447510a0c7fd1f9f236ce22296359d0f43f0c3d94f6151e15938"
+        },
+        {
+            "date": 1700216557661,
+            "name": "D:\\Fahim\\university\\logs\\winston\\success\\u-2023-17-11-16-success.log",
+            "hash": "fc28c7976db6577448431a387169f877f6acf3c87a965855c49a70ebc98bf3b8"
+        },
+        {
+            "date": 1700219328802,
+            "name": "D:\\Fahim\\university\\logs\\winston\\success\\u-2023-17-11-17-success.log",
+            "hash": "4bec132e172127feffdac11ef9d246c30bc7cb759a264cea13f01fd67fce8b97"
+        },
+        {
+            "date": 1700222882050,
+            "name": "D:\\Fahim\\university\\logs\\winston\\success\\u-2023-17-11-18-success.log",
+            "hash": "076e372ad5be9f1c0c7114721a064823f2703aaa8c582b331a893cb16ea987fe"
+        }
+    ],
+    "hashType": "sha256"
+}
