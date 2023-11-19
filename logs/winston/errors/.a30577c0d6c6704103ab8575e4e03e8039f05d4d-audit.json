@@ -6,34 +6,24 @@
     "auditLog": "D:\\Fahim\\university\\logs\\winston\\errors\\.a30577c0d6c6704103ab8575e4e03e8039f05d4d-audit.json",
     "files": [
         {
-            "date": 1700200986263,
-            "name": "D:\\Fahim\\university\\logs\\winston\\errors\\u-2023-17-11-12-error.log",
-            "hash": "c361ab3a219073f40a13e8ce948a248c4febf86f67918f6ee0d4f4d2621bcd0b"
+            "date": 1700385141833,
+            "name": "D:\\Fahim\\university\\logs\\winston\\errors\\u-2023-19-11-15-error.log",
+            "hash": "12a633519f7706710a7b4c13619d4058f367d47acf027f4da678d719143dc5fa"
         },
         {
-            "date": 1700209881726,
-            "name": "D:\\Fahim\\university\\logs\\winston\\errors\\u-2023-17-11-14-error.log",
-            "hash": "18dd5a7573c5df0847369bfe207f942fcb3fef77bd16a0e599bebe6c32fa17e2"
+            "date": 1700388030168,
+            "name": "D:\\Fahim\\university\\logs\\winston\\errors\\u-2023-19-11-16-error.log",
+            "hash": "120867bcb9a2779532f5e5ee4dc262b746215234a52df135032f68c473a64421"
         },
         {
-            "date": 1700212046569,
-            "name": "D:\\Fahim\\university\\logs\\winston\\errors\\u-2023-17-11-15-error.log",
-            "hash": "6b65b2672c53284809c08321029c607d6c734768cd6fa0c4ef6f28e979895dd1"
+            "date": 1700394718861,
+            "name": "D:\\Fahim\\university\\logs\\winston\\errors\\u-2023-19-11-17-error.log",
+            "hash": "1e3d72d63697ecb15844ac235b8a486155151ac3a3e6ebf2e5e7bc6745f24109"
         },
         {
-            "date": 1700216557664,
-            "name": "D:\\Fahim\\university\\logs\\winston\\errors\\u-2023-17-11-16-error.log",
-            "hash": "3413af3375dbe1c81a158e96e0c138d585c0018547e9631de4b30138adcf57fa"
-        },
-        {
-            "date": 1700219328805,
-            "name": "D:\\Fahim\\university\\logs\\winston\\errors\\u-2023-17-11-17-error.log",
-            "hash": "9cea466b22f1433c35b255ab337e833c529a1fb7fe1e81c7e8598cbc4fcbf2d2"
-        },
-        {
-            "date": 1700222882053,
-            "name": "D:\\Fahim\\university\\logs\\winston\\errors\\u-2023-17-11-18-error.log",
-            "hash": "a95d53277d5722db1a8e970daff60aee2566b6b2c56ed175568756872c50ab35"
+            "date": 1700395525238,
+            "name": "D:\\Fahim\\university\\logs\\winston\\errors\\u-2023-19-11-18-error.log",
+            "hash": "45e8209b427f83676808bfb45c000c15759b4145b9948936fdd9bbb06aa5e945"
         }
     ],
     "hashType": "sha256"
