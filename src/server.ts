@@ -5,8 +5,15 @@ import app from './app'
 import config from './config'
 import { errorLogger, logger } from './shared/logger'
 
+//uncaught Exception handle
+process.on('uncaughtException', error => {
+  errorLogger.error(error)
+  process.exit(1)
+})
+
+let server: Server
+
 async function run() {
-  let server: Server
   try {
     //connect to MongoDB
     await mongoose.connect(config.database_url as string)
@@ -22,9 +29,6 @@ async function run() {
 
   // //unHandleRejection error handle
   process.on('unhandledRejection', error => {
-    console.log(
-      colors.red('Unhandle Rejection is detected,we are closing our server...'),
-    )
     if (server) {
       server.close(() => {
         errorLogger.error(error)
@@ -37,3 +41,11 @@ async function run() {
 }
 
 run()
+
+//sigterm error
+process.on('SIGTERM', () => {
+  logger.info('SIGTERM is received')
+  if (server) {
+    server.close()
+  }
+})

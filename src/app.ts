@@ -14,18 +14,19 @@ app.use(express.urlencoded({ extended: true }))
 //application routes
 app.use('/api/v1/users/', UserRoutes)
 
-// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
-//   Promise.reject(new Error('unhandle promise Rejection'))
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//   //Promise.reject(new Error('unhandle promise Rejection'))
 //   //throw new ApiError(400, 'Ore baba error')
 //   //next('ore baba error')
+//   console.log(x)
 // })
-
-//global error handling
-app.use(globalErrorHandler)
 
 //testing route
 // app.get('/', (req: Request, res: Response) => {
 //   res.json('I M HEALTHY GUYS😎')
 // })
+
+//global error handling
+app.use(globalErrorHandler)
 
 export default app
